@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import SearchPage from "./SearchPage";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import TurupPage from "./TurupPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
 
         <Routes>
           <Route path="/search" element={<SearchPage />}></Route>
+          <Route path="turup" element={<TurupPage/>}></Route>
           <Route path="/" element={<Home />}></Route>
         </Routes>
 

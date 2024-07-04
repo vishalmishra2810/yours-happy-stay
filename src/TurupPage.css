@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+  }
+
+  .container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .button {
+    background-color: green !important;
+    color: white !important;
+    margin: 20px !important;
+  }
+
+  .button2 {
+    background-color: blue !important;
+    color: white !important;
+    margin: 20px !important;
+  }
+  
+  .button:hover {
+    background-color: darkgreen !important;
+  }
+  
